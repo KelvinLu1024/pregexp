@@ -1,11 +1,13 @@
 (library (pregexp)
-  (export pregexp
-          pregexp-match-positions
-          pregexp-match
-          pregexp-split
-          pregexp-replace
-          pregexp-replace*
-          pregexp-quote)
+  (export
+   (rename [pregexp string->regexp]
+           [pregexp-match-positions match-positions]
+           [pregexp-match match]
+           [pregexp-split split]
+           [pregexp-replace replace]
+           [pregexp-replace* replace*]
+           [pregexp-quote quote]))
+
   
   (import (rnrs)
           (rnrs mutable-pairs))
