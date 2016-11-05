@@ -7,7 +7,6 @@
            [pregexp-replace replace]
            [pregexp-replace* replace*]
            [pregexp-quote quote]))
-
   
   (import (rnrs)
           (rnrs mutable-pairs))
