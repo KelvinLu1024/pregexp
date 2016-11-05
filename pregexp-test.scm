@@ -3,6 +3,11 @@
 ;last substantial change 2005-04-24
 ;last change 2008-04-12
 
+(import [pregexp]
+        [pregexp tester])
+
+;; ignore CL code
+#;
 (load (if 'nil "tester.scm" "tester.lisp"))
 
 ;keeping the document honest
